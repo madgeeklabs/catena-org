@@ -1,0 +1,30 @@
+{
+  "name": "catena-org",
+  "version": "0.0.1",
+  "description": "Catena server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/madgeeklabs/catena-org.git"
+  },
+  "keywords": [
+    "catena",
+    "nodejs",
+    "ibeacon",
+    "braintree",
+    "paypal",
+    "battlehack"
+  ],
+  "author": "MadGeekLabs",
+  "license": "GPL V3",
+  "bugs": {
+    "url": "https://github.com/madgeeklabs/catena-org/issues"
+  },
+  "homepage": "https://github.com/madgeeklabs/catena-org",
+  "dependencies": {
+    "braintree": "^1.15.0"
+  }
+}
