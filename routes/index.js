@@ -53,7 +53,7 @@ var devices = [
         url: "https://192.168.0.111",
         email: "gustavogiudici@gmail.com",
         phone: "+34652022076",
-        price: 10,
+        price: 5,
         id: 1
     },
     {   
