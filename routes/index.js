@@ -99,7 +99,10 @@ router.post('/devices/:id', function (req, res) {
            devices.splice(i, 1);
         }
     }
+    console.log(devices);
+    console.log(req.body);
     devices.push(req.body);
+    console.log(devices);
     res.json(req.body);
 
 });
