@@ -94,15 +94,17 @@ router.get('/devices/:id', function(req, res) {
 });
 
 router.post('/devices/:id', function (req, res) {
+    console.log(req.params);
     for(var i = devices.length - 1; i >= 0; i--) {
         if(devices[i] == req.params.id) {
+            console.log("yyeeeahh");
            devices.splice(i, 1);
         }
     }
-    console.log(devices);
-    console.log(req.body);
+    //console.log(devices);
+    //console.log(req.body);
     devices.push(req.body);
-    console.log(devices);
+    //console.log(devices);
     res.json(req.body);
 
 });
