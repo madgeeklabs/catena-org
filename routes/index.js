@@ -53,6 +53,7 @@ var devices = [
         url: "https://192.168.0.111",
         email: "gustavogiudici@gmail.com",
         phone: "+34652022076",
+        price: 10,
         id: 1
     },
     {   
@@ -62,6 +63,7 @@ var devices = [
         url: "https://192.168.0.111",
         email: "gustavogiudici@gmail.com",
         phone: "+34652022076",
+        price: 0,
         id: 2
     },
     {   
@@ -71,17 +73,21 @@ var devices = [
         url: "https://192.168.0.111",
         email: "gustavogiudici@gmail.com",
         phone: "+34652022076",
+        price: 500,
         id: 3
     },
 
 ]
 
-/* POST Handles the amount & payment method nonce to execute a transaction */
 router.get('/devices', function (req, res) {
     res.json(devices);
 
 });
 
+router.post('/devices', function (req, res) {
+    res.json(devices);
+
+});
 
 
 module.exports = router;
