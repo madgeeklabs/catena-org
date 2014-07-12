@@ -84,8 +84,23 @@ router.get('/devices', function (req, res) {
 
 });
 
-router.post('/devices', function (req, res) {
-    res.json(devices);
+router.get('/devices/:id', function(req, res) {
+    var i;
+    for(i = 0; i < devices.length; i++){
+        if (devices[i].id == req.params.id){
+            res.json(devices[i]);
+        }
+    }
+});
+
+router.post('/devices/:id', function (req, res) {
+    for(var i = devices.length - 1; i >= 0; i--) {
+        if(devices[i] == req.params.id) {
+           devices.splice(i, 1);
+        }
+    }
+    devices.push(req.body);
+    res.json(req.body);
 
 });
 
