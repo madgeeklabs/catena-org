@@ -40,4 +40,48 @@ router.post('/payment', function (req, res) {
   });
 });
 
+/* POST Handles the amount & payment method nonce to execute a transaction */
+router.get('/challenge', function (req, res) {
+    res.send("challenge?");
+});
+
+var devices = [
+    {   
+        name: "Electric Kettle",
+        sendEmail: false,
+        sendSMS: true,
+        url: "https://192.168.0.111",
+        email: "gustavogiudici@gmail.com",
+        phone: "+34652022076",
+        id: 1
+    },
+    {   
+        name: "3d printer",
+        sendEmail: false,
+        sendSMS: true,
+        url: "https://192.168.0.111",
+        email: "gustavogiudici@gmail.com",
+        phone: "+34652022076",
+        id: 2
+    },
+    {   
+        name: "Plug",
+        sendEmail: true,
+        sendSMS: true,
+        url: "https://192.168.0.111",
+        email: "gustavogiudici@gmail.com",
+        phone: "+34652022076",
+        id: 3
+    },
+
+]
+
+/* POST Handles the amount & payment method nonce to execute a transaction */
+router.get('/devices', function (req, res) {
+    res.json(devices);
+
+});
+
+
+
 module.exports = router;
