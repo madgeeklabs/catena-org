@@ -71,12 +71,12 @@ var devices = [
         id: 2
     },
     {   
-        name: "Plug",
+        name: "WashingMachine",
         sendEmail: true,
         sendSMS: true,
         url: "https://192.168.0.111",
         email: "gustavogiudici@gmail.com",
-        image: "http://www.1001experiencias.com/wp-content/uploads/2013/03/oculus-rift-1.jpg",
+        image: "http://www.siemens-home.com.hk/Files/SiemensNew/Hk/hk_en/iQ800/resized/MCMI022783_S7M11S370046.jpg",
         gravatar:"http://gravatar.com/avatar/cd351ae83b3a49c828bc6b4b5320844e?s=300",
         phone: "+34652022076",
         price: 500,
