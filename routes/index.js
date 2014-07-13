@@ -67,7 +67,7 @@ var devices = [
         image: "http://3dp.se/wp-content/uploads/2013/02/reprap_industriell.jpg",
         gravatar:"http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=300",
         phone: "+34652022076",
-        price: 0,
+        price: 3,
         id: 2
     },
     {   
@@ -79,7 +79,7 @@ var devices = [
         image: "http://www.siemens-home.com.hk/Files/SiemensNew/Hk/hk_en/iQ800/resized/MCMI022783_S7M11S370046.jpg",
         gravatar:"http://gravatar.com/avatar/cd351ae83b3a49c828bc6b4b5320844e?s=300",
         phone: "+34652022076",
-        price: 500,
+        price: 5,
         id: 3
     },
 
