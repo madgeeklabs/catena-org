@@ -53,6 +53,7 @@ var devices = [
         url: "https://192.168.0.111",
         email: "gustavogiudici@gmail.com",
         image: "http://www.sminami.org/main/wp-content/uploads/2009/05/cloer.jpg",
+        gravatar:"http://gravatar.com/avatar/bed811b26f36cf670fc82efd485b41c7",
         phone: "+34652022076",
         price: 5,
         id: 1
@@ -64,6 +65,7 @@ var devices = [
         url: "https://192.168.0.111",
         email: "gustavogiudici@gmail.com",
         image: "http://3dp.se/wp-content/uploads/2013/02/reprap_industriell.jpg",
+        gravatar:"http://gravatar.com/avatar/bed811b26f36cf670fc82efd485b41c7",
         phone: "+34652022076",
         price: 0,
         id: 2
@@ -75,6 +77,7 @@ var devices = [
         url: "https://192.168.0.111",
         email: "gustavogiudici@gmail.com",
         image: "http://www.1001experiencias.com/wp-content/uploads/2013/03/oculus-rift-1.jpg",
+        gravatar:"http://gravatar.com/avatar/cd351ae83b3a49c828bc6b4b5320844e",
         phone: "+34652022076",
         price: 500,
         id: 3
