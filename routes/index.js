@@ -52,7 +52,7 @@ var devices = [
         sendSMS: true,
         url: "https://192.168.0.111",
         email: "gustavogiudici@gmail.com",
-        image: "http://www.healtheelife.com/wp-content/uploads/2012/06/breville_kettle.jpg",
+        image: "http://www.sminami.org/main/wp-content/uploads/2009/05/cloer.jpg",
         phone: "+34652022076",
         price: 5,
         id: 1
@@ -63,7 +63,7 @@ var devices = [
         sendSMS: true,
         url: "https://192.168.0.111",
         email: "gustavogiudici@gmail.com",
-        image: "http://www.3pointprinting.com/wp-content/uploads/2013/08/IC3D-Reprap-MendelMax-3D-Printer.jpg",
+        image: "http://3dp.se/wp-content/uploads/2013/02/reprap_industriell.jpg",
         phone: "+34652022076",
         price: 0,
         id: 2
@@ -74,7 +74,7 @@ var devices = [
         sendSMS: true,
         url: "https://192.168.0.111",
         email: "gustavogiudici@gmail.com",
-        image: "http://www.cableorganizer.com/product-showcase/wp-content/uploads/2010/06/flat-plug-app-lg-300x300.jpg",
+        image: "http://www.1001experiencias.com/wp-content/uploads/2013/03/oculus-rift-1.jpg",
         phone: "+34652022076",
         price: 500,
         id: 3
